@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="header" class="header">
+           <div class="header-inner">
+               <a href="../index.html" class="header-logo">
+                <svg version="1.1" x="0px" y="0px" viewBox="0 0 400 50" class='logo'>
+                    <title>SpaceX Logo</title>
+                    <g class="letter_s">
+                      <path class="fill-white" d="M37.5,30.5H10.9v-6.6h34.3c-0.9-2.8-3.8-5.4-8.9-5.4H11.4c-5.7,0-9,2.1-9,6.7v4.9c0,4,3.4,6.3,8.4,6.3h26.9v7H1.5
+                      c0.9,3.8,3.8,5.8,9,5.8h27.1c5.7,0,8.5-2.2,8.5-6.9v-4.9C46.1,33.1,42.8,30.8,37.5,30.5z"></path>
+                    </g>
+                    <g class="letter_p">
+                      <path class="fill-white" d="M91.8,18.6H59v30.7h9.3V37.5h24.2c6.7,0,10.4-2.3,10.4-7.7v-3.4C102.8,21.4,98.6,18.6,91.8,18.6z M94.8,28.4
+                      c0,2.2-0.4,3.4-4,3.4H68.3l0.1-8h22c4,0,4.5,1.2,4.5,3.3V28.4z"></path>
+                    </g>
+                    <g class="letter_a">
+                      <polygon class="fill-white" points="129.9,17.3 124.3,24.2 133.8,37.3 114,37.3 109.1,42.5 137.7,42.5 142.6,49.3 153.6,49.3 	"></polygon>
+                    </g>
+                    <g class="letter_c">
+                      <path class="fill-white" d="M171.4,23.9h34.8c-0.9-3.6-4.4-5.4-9.4-5.4h-26c-4.5,0-8.8,1.8-8.8,6.7v17.2c0,4.9,4.3,6.7,8.8,6.7h26.3
+                      c6,0,8.1-1.7,9.1-5.8h-34.8V23.9z"></path>
+                    </g>
+                    <g class="letter_e">
+                      <polygon class="fill-white" points="228.3,43.5 228.3,34.1 247,34.1 247,28.9 218.9,28.9 218.9,49.3 260.4,49.3 260.4,43.5 	"></polygon>
+                      <rect class="fill-white" x="219.9" y="18.6" width="41.9" height="5.4"></rect>
+                    </g>
+                    <g class="letter_x">
+                      <path class="fill-white" d="M287.6,18.6H273l17.2,12.6c2.5-1.7,5.4-3.5,8-5L287.6,18.6z"></path>
+                      <path class="fill-white" d="M308.8,34.3c-2.5,1.7-5,3.6-7.4,5.4l13,9.5h14.7L308.8,34.3z"></path>
+                    </g>
+                    <g class="letter_swoosh">
+                      <path class="fill-white" d="M399,0.7c-80,4.6-117,38.8-125.3,46.9l-1.7,1.6h14.8C326.8,9.1,384.3,2,399,0.7L399,0.7z"></path>
+                    </g>
+                  </svg>
+               </a>
+               <div class="header-nav">
+                   <ul class="nav-links">
+                       <li class="nav-item"><a href="./falcon9.html" class="">FALCON 9</a> <div class="white-line"></div></li>
+                       <li class="nav-item"><a href="" class="">FALCON HEAVY</a><div class="white-line"></div></li>
+                       <li class="nav-item"><a href="../vehicles/dragon.html" class="">DRAGON</a><div class="white-line"></div></li>
+                       <li class="nav-item"><a href="./starship.html" class="">STARSHIP</a><div class="white-line"></div></li>
+                       <li class="nav-item"><a href="../human-spaceflight/index.html" class="">HUMAN SPACELIGHT</a><div class="white-line"></div></li>
+                       <li class="nav-item"><a href="../ride-share/index.html" class="">RIDESHARE</a><div class="white-line"></div></li>
+                   </ul>
+               </div>
+               <div class="header-nav-right">
+                   <ul class="nav-links">
+                       <li class="nav-item"><a href="" class="">SHOP</a><div class="white-line"></div></li>
+                   </ul>
+                    <div class="menu">
+                        <ul class="menu-links">
+                          <li class="menu-item"><a href="../menu/mission.html">MISSION</a></li>
+                            <li class="menu-item"><a href="../menu/launch.html">LAUNCHES</a></li>
+                            <li class="menu-item"><a href="../menu/careers.html">CARRERS</a></li>
+                            <li class="menu-item"><a href="../menu/update.html">UPDATES</a></li>
+                            <li class="menu-item"><a href="">SHOP</a></li>
+                        </ul>
+                    </div>
+                    <div class="overlay"></div>
+                   <div class=menu-btn>
+                        <div class="bar bar-1"></div>
+                        <div class="bar bar-2"></div>
+                        <div class="bar bar-3"></div>
+                    </div>
+               </div>
+              
+           </div>
+        </div>
+        <div id="content" class="content">
+           <div class="vehicle-slider" style="background-image: url(../assets/img/vehicel2.webp);">
+               <div class="vehicle-heading">
+                <h2 class="vehicle-name" data-aos="fade-up" data-aos-duration="500">FALCON HEAVY</h2>
+                <h4 class="vehile-desc" data-aos="fade-up" data-aos-duration="1000">THE WORLD’S MOST POWERFUL ROCKET</h4>
+               </div>
+           </div>
+           <div class="vehicle-number">
+               <div class="total">
+                    <p class="total-number counter" data-set="3"></p>
+                    <p class="total-desc">TOTAL LAUNCHES</p>
+               </div>
+               <div class="total">
+                    <p class="total-number counter" data-set="7"></p>
+                    <p class="total-desc">TOTAL LANDINGS</p>
+               </div>
+               <div class="total">
+                    <p class="total-number counter" data-set="4"></p>
+                    <p class="total-desc">REFLOWN ROCKETS</p>
+               </div>
+           </div>
+           <div class="vehicles-line"  style="background-image: url(../assets/img/falcon_heavy_line.webp);">
+             <p data-aos="fade-up">Falcon Heavy is the most powerful operational rocket in the world by a factor of two. With the ability to lift into orbit nearly 64 metric tons (141,000 lb) Falcon Heavy can lift more than twice the payload of the next closest operational vehicle, the Delta IV Heavy. Falcon Heavy is composed of three Falcon 9 nine-engine cores whose 27 Merlin engines together generate more than 5 million pounds of thrust at liftoff, equal to approximately eighteen 747 aircraft.</p>
+           </div>
+          <div class="vehicles-slider-container">
+            <div class="vehicle-pre-btn"><i class="fas fa-chevron-left"></i></div>
+            <div class="vehicle-next-btn"><i class="fas fa-chevron-right"></i></div>
+            <ul class="dot-container">
+              <li class="slide-dot active" data-index="0"></li>
+              <li class="slide-dot" data-index="1"></li>
+              <li class="slide-dot" data-index="2"></li>
+              <li class="slide-dot" data-index="3"></li>
+              <li class="slide-dot" data-index="4"></li>
+            </ul>
+             <div class="vehicles-slide">
+               <div class="slide-main" id="slide-main">
+                  <div class="slide-item"  style="background-image: url(../assets/img/falcon_heavy_slide1.webp);" >
+                  <div class="slide-text">
+                    <h3 class="slider-vehicle" data-aos="fade-down-left" data-aos-duration="500">FALCON HEAVY</h3>
+                    <h2 class="slider-heading" data-aos="fade-down-left" data-aos-duration="600">OVERVIEW</h2>
+                    <div class="tech-para">
+                      <div class="para-container" data-aos="fade-down-left" data-aos-duration="700">
+                        <p class="para-name">HEIGHT</p>
+                        <div class="para"><p class="left-para">70 m </p><p class="right-para">/ 229.6 ft</p></div>
+                      </div>
+                      <div class="para-container" data-aos="fade-down-left" data-aos-duration="800">
+                        <p class="para-name">WIDTH</p>
+                        <div class="para"><p class="left-para">12.2 m </p><p class="right-para">/ 39.9 ft</p></div>
+                      </div>
+                      <div class="para-container" data-aos="fade-down-left" data-aos-duration="900">
+                        <p class="para-name">MASS</p>
+                        <div class="para"><p class="left-para">1,420,788 kg </p><p class="right-para">/ 3,125,735 lb</p></div>
+                      </div>
+                      <div class="para-container" data-aos="fade-down-left" data-aos-duration="1000">
+                        <p class="para-name">PAYLOAD TO LEO</p>
+                        <div class="para"><p class="left-para">63,800 kg </p><p class="right-para">/ 140,660 lb</p></div>
+                      </div>
+                      <div class="para-container" data-aos="fade-down-left" data-aos-duration="1100">
+                        <p class="para-name">PAYLOAD TO GTO</p>
+                        <div class="para"><p class="left-para">26,700 kg</p><p class="right-para">/ 58,860 lb</p></div>
+                      </div>
+                      <div class="para-container" data-aos="fade-down-left" data-aos-duration="1200">
+                        <p class="para-name">PAYLOAD TO MARS</p>
+                        <div class="para"><p class="left-para">16,800 kg </p><p class="right-para">/ 37,040 lb</p></div>
+                      </div>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="slide-item"  style="background-image: url(../assets/img/falcon_heavy_slide2.webp);">
+                    <div class="slide-text">
+                      <h3 class="slider-vehicle">FALCON HEAVY</h3>
+                      <h2 class="slider-heading">FIRST STAGE</h2>
+                      <div class="slider-nav">
+                        <div class="slider-nav-item slider-nav-item1 active">OVERVIEW</div>
+                        <div class="slider-nav-item slider-nav-item1 slider-mid-nav-item">ENGINES</div>
+                        <div class="slider-nav-item slider-nav-item1" style="padding-left:10px">LANDING LEGS</div>
+                      </div>
+                      <div class="slider-desc slider-desc1  active" ><p style="margin-bottom: 10px;">Three cores make up the first stage of Falcon Heavy. The side cores, or boosters, are connected on the nosecone, the interstage, and on the octaweb. Shortly after liftoff the center core engines are throttled down. After the side cores separate, the center core engines throttle back up to full thrust.
+                      </p>
+                      
+                      </div>
+                      <div class="slider-desc slider-desc1" ><p style="margin-bottom: 20px;">Falcon Heavy’s first stage incorporates 27 Merlin engines across three aluminum-lithium alloy rocket cores containing liquid oxygen and rocket-grade kerosene (RP-1) propellant. Falcon Heavy generates more than 5 million pounds of thrust at liftoff.</p>
+                        <div class="tech-para">
+                          <div class="para-container">
+                            <p class="para-name">NUMBER OF ENGINES</p>
+                            <div class="para"><p class="left-para">27</p></div>
+                          </div>
+                          <div class="para-container">
+                            <p class="para-name">THRUST AT SEA LEVEL</p>
+                            <div class="para"><p class="left-para">22,819 kN</p><p class="right-para">/ 5,130,000 lbf</p></div>
+                          </div>
+                          <div class="para-container">
+                            <p class="para-name">THRUST IN VACUUM</p>
+                            <div class="para"><p class="left-para">24,681 kN </p><p class="right-para"> / 5,548,500 lbf</p></div>
+                          </div>
+                          </div>
+                      </div>
+                      <div class="slider-desc slider-desc1" ><p style="margin-bottom: 10px">The Falcon Heavy first stage is equipped with 12 landing legs (4 on each booster) made of state-of-the-art carbon fiber with aluminum honeycomb.
+                      </p>
+                      <p>All 12 landing legs are stowed along the side of each booster until just prior to landing.
+                    </p>
+                      <p class="desc-link"><a href="../menu/mission.html">Learn more about Falcon reusability</a> <i class="fas fa-chevron-right"></i></p>
+                      </div>
+                    </div>
+                    
+                  </div>
+  
+                  <div class="slide-item"  style="background-image: url(../assets/img/falcon_heavy_slide3.webp);">
+                    <div class="slide-text">
+                      <h3 class="slider-vehicle">FALCON 9</h3>
+                      <h2 class="slider-heading">INTERSTAGE
+                      </h2>
+                      <p class="slider-p-width" style="display:block">The interstage is a composite structure that connects the center core on the first stage and second stages and holds the release and separation system.</p>
+                      <h3 class="sub-heading">GRID FINS</h3>
+                      <p class="slider-p-width" style="display:block">Falcon Heavy is equipped with 12 hypersonic grid fins, four on each booster, positioned at the base of the interstage or nosecone which orients by moving the center of pressure during reentry.</p>
+                    </div>
+                  </div>
+                  <div class="slide-item"  style="background-image: url(../assets/img/falcon_slide3.webp);">
+                    <div class="slide-text">
+                      <h3 class="slider-vehicle">FALCON 9</h3>
+                      <h2 class="slider-heading">SECOND STAGE</h2>
+                      <p class="slider-p-width" style="display:block">Falcon Heavy draws upon Falcon 9’s proven design, which minimizes stage separation events and maximizes reliability. The second-stage Merlin Vacuum Engine delivers the rocket’s payload to orbit after the main engines cut off and the first-stage cores separate.</p>
+                      <div class="tech-para">
+                          <div class="para-container">
+                            <p class="para-name">NUMBER OF ENGINES</p>
+                            <div class="para"><p class="left-para">1 vacuum </p><p class="right-para"></p></div>
+                          </div>
+                          <div class="para-container">
+                            <p class="para-name">BURN TIME</p>
+                            <div class="para"><p class="left-para">397 sec </p><p class="right-para"></p></div>
+                          </div>
+                          <div class="para-container">
+                            <p class="para-name">THRUST</p>
+                            <div class="para"><p class="left-para">981 kN </p><p class="right-para">/ 220,500 lbf</p></div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide-item"  style="background-image: url(../assets/img/falcon_slide5.webp);">
+                    <div class="slide-text">
+                      <h3 class="slider-vehicle">FALCON 9</h3>
+                      <h2 class="slider-heading">PAYLOAD</h2>
+                      <!-- <div class="slider-nav">
+                        <div class="slider-nav-item slider-nav-item2 active">FAIRING</div>
+                        <div class="slider-nav-item slider-nav-item2 slider-mid-nav-item">DRAGON</div>
+                      </div> -->
+                      <div class="slider-desc slider-desc2 active" ><p style="margin-bottom: 20px;">Made of a carbon composite material, the fairing protects satellites on their way to orbit. The fairing is jettisoned approximately 3 minutes into flight, and SpaceX continues to recover fairings for reuse on future missions.</p>
+                        <div class="tech-para">
+                          <div class="para-container">
+                            <p class="para-name">HEIGHT</p>
+                            <div class="para"><p class="left-para">13.1m</p><p class="right-para">/43 ft</p></div>
+                          </div>
+                          <div class="para-container">
+                            <p class="para-name">DIAMETER</p>
+                            <div class="para"><p class="left-para">5.2 m</p><p class="right-para">/ 17.1 ft</p></div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div class="slider-desc slider-desc2" ><p style="margin-bottom: 20px;">Dragon is capable of carrying up to 7 people and/or cargo in the spacecraft’s pressurized section. In addition, Dragon can carry cargo in the spacecraft’s unpressurized trunk, which can also accommodate secondary payloads.</p>
+                        <div class="tech-para">
+                          <div class="para-container">
+                            <p class="para-name">HEIGHT</p>
+                            <div class="para"><p class="left-para">8.1 m</p><p class="right-para">/26.6 ft</p></div>
+                          </div>
+                          <div class="para-container">
+                            <p class="para-name">DIAMETER</p>
+                            <div class="para"><p class="left-para">3.7 m </p><p class="right-para">/ 12 ft</p></div>
+                          </div>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+               </div>
+             </div>
+          </div>
+          <div class="img-play-transporter" id="btn-transporter">
+            <img src="../assets/img/falcon_heavy_video.webp" alt="">
+            <div class="img-play-overplay">&#9658;</div>
+            <div class="video-text" >
+              <h3 class="video-heading" data-aos="fade-up">
+                VIDEO
+              </h3>
+              <h2 class="video-tittle" data-aos="fade-up">FALCON HEAVY FIRST FLIGHT</h2>
+            </div>
+         </div>
+         
+          <div class="vehicles-engines" style="background-image: url(../assets/img/merlink1.webp);">
+            <div class="slide-text">
+              <h3 class="slider-vehicle" data-aos="fade-up">ENGINES</h3>
+              <h2 class="slider-heading" data-aos="fade-up">MERLIN</h2>
+              <div class="slider-nav">
+                <div class="slider-nav-item slider-nav-item3 active">SEA LEVEL</div>
+                <div class="slider-nav-item slider-nav-item3 slider-mid-nav-item">VACUUM</div>
+              </div>
+              <div class="slider-desc slider-desc3 active" ><p style="margin-bottom: 20px;" data-aos="fade-up">Merlin is a family of rocket engines developed by SpaceX for use on its Falcon 1, Falcon 9 and Falcon Heavy launch vehicles. Merlin engines use a rocket grade kerosene (RP-1) and liquid oxygen as rocket propellants in a gas-generator power cycle. The Merlin engine was originally designed for recovery and reuse.</p>
+                <div class="tech-para">
+                  <div class="para-container" data-aos="fade-up">
+                    <p class="para-name">PROPELLANT</p>
+                    <div class="para"><p class="left-para">LOX </p><p class="right-para">/ RP-1</p></div>
+                  </div>
+                  <div class="para-container" data-aos="fade-up">
+                    <p class="para-name">THRUST</p>
+                    <div class="para"><p class="left-para">845 kN</p><p class="right-para">/ 190,000 lbf</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-desc slider-desc3" ><p data-aos="fade-up" style="margin-bottom: 20px;">Merlin Vacuum features a larger exhaust section and a significantly larger expansion nozzle to maximize the engine’s efficiency in the vacuum of space. Its combustion chamber is regeneratively cooled, while the expansion nozzle is radiatively cooled. At full power, the Merlin Vacuum engine operates with the greatest efficiency ever for an American-made hydrocarbon rocket engine.</p>
+                <div class="tech-para">
+                  <div class="para-container" data-aos="fade-up">
+                    <p class="para-name">PROPELLANT</p>
+                    <div class="para"><p class="left-para">LOX</p><p class="right-para">/ RP-1</p></div>
+                  </div>
+                  <div class="para-container" data-aos="fade-up">
+                    <p class="para-name">THRUST</p>
+                    <div class="para"><p class="left-para">981 kN</p><p class="right-para">/ 220,500 lbf</p></div>
+                  </div>
+                </div>
+              </div>
+          </div>
+         
+        </div>
+        <div class="last-slider">
+          <div id="last-slider-prev-btn"><i class="fas fa-chevron-left"></i></div>
+          <div id="last-slider-next-btn"><i class="fas fa-chevron-right"></i></div>
+          <div class="last-slider-container">
+            <div class="last-slider-item" id = "lastClone" style="background-image: url(../assets/img/falcon_heavy_last5.webp);"><p>Falcon Heavy lifts off from Pad 39A at Kennedy Space Center</p></div>
+            <div class="last-slider-item" style="background-image: url(../assets/img/falcon_heavy_last1.webp);"><p>Falcon Heavy lifts off from Pad 39A at Kennedy Space Center</p></div>
+            <div class="last-slider-item" style="background-image: url(../assets/img/falcon_heavy_last2.webp);"><p>Falcon Heavy lifts off from Pad 39A at Kennedy Space Center</p></div>
+            <div class="last-slider-item" style="background-image: url(../assets/img/falcon_heavy_last3.webp);"><p>All 27 Merlin engines lit on Falcon Heavy</p></div>
+            <div class="last-slider-item" style="background-image: url(../assets/img/falcon_heavy_last4.webp);"><p>Falcon Heavy lifts off from Pad 39A at Kennedy Space Center</p></div>
+            <div class="last-slider-item" style="background-image: url(../assets/img/falcon_heavy_last5.webp);"><p>Falcon Heavy lifts off from Pad 39A at Kennedy Space Center</p></div>
+            <div class="last-slider-item" id="firstClone" style="background-image: url(../assets/img/falcon_heavy_last1.webp);"><p>Falcon 9 launches Dragon to the International Space Station from Launch Complex 39A</p></div>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="line"  data-aos="fade-up" ></div>
+          <p  data-aos="fade-up">For information about our launch services, contact<a href=""> sales@spacex.com</a></p>
+          <div class="contact-btn">
+            <div class="btn btn-right" data-aos="fade-up" data-aos-duration="500"><a href="">DOWNLOAD USER'S GUIDE</a></div>
+            <div class="btn btn-left" data-aos="fade-up" data-aos-duration="700"><a href="">CAPABILITIES AND SERVICES</a></div>
+          </div>
+        </div>
+        </div>
+        <div class="modal-transporter">
+           <div class="video">
+            <iframe width="80%" height="500px" class='transporter-vd' src="https://www.youtube.com/embed/A0FZIwabctw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+           <div class="close-modal-transporter-btn">&times;</div>
+        </div>
+        <div id="footer" class="footer">
+            <ul class="footer-links">
+              <li class="footer-link-item "><a href="" class='copyright' >SPACEX © 2022</a></li>
+              <li class="footer-link-item"><a href="">TWITTER</a></li>
+              <li class="footer-link-item"><a href="">YOUTUBE</a></li>
+              <li class="footer-link-item"><a href="">INSTAGRAM</a></li>
+              <li class="footer-link-item"><a href="">FLICKR</a></li>
+              <li class="footer-link-item"><a href="">LINKEDIN</a></li>
+              <li class="footer-link-item"><a href="">PRIVACY POLICY</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./falconheavy.js"></script>
+</body>
+</html>
